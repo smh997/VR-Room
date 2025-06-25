@@ -12,7 +12,7 @@ public class DayNightCycle : MonoBehaviour
     [SerializeField] private Color nightColor = new Color(0.1f, 0.1f, 0.3f); // Dark blue
 
     private float rotationSpeed;
-    private float timeOfDay; // 0 to 1
+    public float timeOfDay; // 0 to 1, now public
     private Light dirLight;
 
     void Start()
