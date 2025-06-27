@@ -687,7 +687,7 @@
                     "name": "Select",
                     "type": "Button",
                     "id": "33754c03-48ec-46ef-9bc6-22ed6bfdd8e8",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2596,6 +2596,54 @@
                     "processors": "",
                     "groups": "",
                     "action": "Pinch Gap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "WorldPulling",
+            "id": "8e5b0a01-dd03-4196-95f6-74126c6616e5",
+            "actions": [
+                {
+                    "name": "LeftGripCustom",
+                    "type": "Button",
+                    "id": "9a1c3f0f-c937-44d4-b35a-f163f0442205",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightGripCustom",
+                    "type": "Button",
+                    "id": "0d0526b5-e579-4fa7-b45d-6b2deadd4359",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c80aa592-fa5e-4d3e-8bd4-3e7129a06a79",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftGripCustom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44b31aca-81e6-4701-8378-9fa3eb88073b",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGripCustom",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
