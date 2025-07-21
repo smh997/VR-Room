@@ -17,7 +17,6 @@ public class ExtinguishOnShake : MonoBehaviour
     private void Update()
     {
         if (candleFlame == null || rb == null) return;
-        Debug.Log($"Rigidbody Velocity: {rb.velocity.magnitude}");
         if (rb.velocity.magnitude > extinguishSpeed)
         {
             candleFlame.Stop();
