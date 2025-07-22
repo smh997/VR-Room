@@ -86,6 +86,9 @@ public class PlayVideo : MonoBehaviour
     public void Play()
     {
         videoMaterial.color = Color.white;
+        if (videoClips.Count > 0) {
+            videoPlayer.clip = videoClips[index];
+        }
         videoPlayer.Play();
     }
 
